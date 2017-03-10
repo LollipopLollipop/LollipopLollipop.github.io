@@ -31,8 +31,8 @@
 
 <body style="background-color:#FFFFFF">
     <div class="wrapper">
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <img src="assets/banner.png">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0" style="background-color:transparent">
+            <img src="assets/banner.png" style="width:100%">
         </nav>
     
     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12">
@@ -182,11 +182,11 @@
     legend: {
         layout: 'vertical',
         align: 'left',
-        x: 120,
+        x: 80,
         verticalAlign: 'top',
-        y: 100,
+        y: 50,
         floating: true,
-        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+        backgroundColor: 'rgba(255, 255, 255, 0.1)' //(Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
     },
     series: [{
         name: 'Volume',
@@ -252,11 +252,11 @@
     legend: {
         layout: 'vertical',
         align: 'left',
-        x: 120,
+        x: 80,
         verticalAlign: 'top',
-        y: 100,
+        y: 50,
         floating: true,
-        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+        backgroundColor: 'rgba(255, 255, 255, 0.1)' //(Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
     },
     series: [{
         name: 'Flow',
@@ -317,11 +317,11 @@
     legend: {
         layout: 'vertical',
         align: 'left',
-        x: 120,
+        x: 380,
         verticalAlign: 'top',
-        y: 100,
+        y: 50,
         floating: true,
-        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+        backgroundColor: 'rgba(255, 255, 255, 0.1)' //(Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
     },
     series: [{
         name: 'Sentiment',
